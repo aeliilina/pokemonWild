@@ -1,0 +1,43 @@
+.PokemonBack{
+    background-image: url('/Users/aelina/Desktop/vs code/reactvs/react-app/src/assets/sage green background.jpeg');
+    width: 100%;
+	background-position-x: center;
+	background-size: cover;
+	padding-top: 100px;
+    
+}
+
+.PokemonWrapper{
+    margin-top: 20px;
+    display: flex;
+    height: 100vh;
+    padding-left: 50px;
+ 
+}
+
+.pokemonCardWrapper {
+    display: flex;
+    width: 50%;
+}
+
+.pokemonImgWrapper {
+    border: 1px solid;
+    border-radius: 8px;
+    border-width: 3px;
+    width: 250px;
+    height: 300px;
+    background-color: cadetblue;
+}
+
+.pokemonImg {
+    width: 110%;
+}
+
+.pokemonContent {
+    padding-left: 150px; 
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+

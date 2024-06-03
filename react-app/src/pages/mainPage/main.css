@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    background-image: url('/Users/aelina/Desktop/vs code/reactvs/react-app/src/assets/Wallpaper White Clouds Illustration, Pixel Art, 8 Bit - Wallpaperforu.jpeg');
+    background-repeat: no-repeat;
+	background-position-x: center;
+	background-size: cover;
+	height: 1000px;
+	padding-top: 100px;
+    
+}
+button{
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+.ButtonMain{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 80px;
+    padding-left: 260px;
+}
