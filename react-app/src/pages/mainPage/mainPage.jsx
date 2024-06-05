@@ -24,8 +24,8 @@ const MainPage=()=>{
     <>
         <div className='wrapper'>
             {result?.results?.map((item,index)=>(
-                <div key={index}>
-                    <Card name={item.name}>{item.name}</Card>
+                <div key={index} className='Cards'>
+                    <Card name={item.name} image={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`} > </Card>
                 </div>
             ))}
             <div className='ButtonMain'>

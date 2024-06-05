@@ -26,3 +26,8 @@ button{
     margin-top: 80px;
     padding-left: 260px;
 }
+
+.Cards{
+    display: flex;
+    align-items: center;
+}
